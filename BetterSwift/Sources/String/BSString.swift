@@ -46,20 +46,18 @@ extension String {
     }
 }
 
-infix operator ...
-postfix operator ...
-prefix operator ...
+infix operator ..
+postfix operator ..
+prefix operator ..
 
-public func ...(lhs: Int, rhs: Int) -> [Int] {
-    
+public func ..(lhs: Int, rhs: Int) -> [Int] {
     return [lhs, rhs]
 }
 
-public postfix func ...(lhs: Int) -> [Int] {
+public postfix func ..(lhs: Int) -> [Int] {
     return [lhs, 0]
 }
 
-public prefix func ...(rhs: Int) -> [Int] {
-    
+public prefix func ..(rhs: Int) -> [Int] {
     return [0, rhs]
 }
