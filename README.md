@@ -1,0 +1,2 @@
+# betterSwift
+Use swift easily
