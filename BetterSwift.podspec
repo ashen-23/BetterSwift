@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://www.jianshu.com/u/3095a094665c"
 
   s.source       = { :git => "https://github.com/515783034/BetterSwift.git", :tag => "#{s.version}" }
+  s.platform = :ios, "9.0"
 
   s.default_subspec = 'Core'
 
