@@ -15,9 +15,9 @@ str[-4..-2]				// 789
 ```
 Error:
 ```
-str[5..4] str[-2..-4] str[4..-7] 	// nil (start large then end)
+str[5..4] str[-2..-4] str[4..-7] 	// nil (start larger than end)
 st[11..]  str[..12]   str[..-12] 	// nil (out of range)
-str[-1..2]							// nil (meaningless)
+str[-1..2]               // nil (meaningless)
 ```
 
 
@@ -26,4 +26,4 @@ How to use:
 ```
 pod 'BetterSwift/String'
 ```
-
+![stringSplit](./Documents/stringSplit.gif)
