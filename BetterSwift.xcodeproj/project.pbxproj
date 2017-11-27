@@ -15,6 +15,9 @@
 		9549B67B1FC6D1C100B04BE0 /* BSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549B67A1FC6D1C100B04BE0 /* BSString.swift */; };
 		9549B67D1FC6DB6A00B04BE0 /* DemoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549B67C1FC6DB6A00B04BE0 /* DemoConfig.swift */; };
 		9549B6801FC6DCB600B04BE0 /* DemoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549B67F1FC6DCB600B04BE0 /* DemoListCell.swift */; };
+		9549B6821FC6DE7C00B04BE0 /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9549B6811FC6DE7C00B04BE0 /* Demo.storyboard */; };
+		95A71D1D1FCBC34C00108201 /* DemoStringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A71D1C1FCBC34C00108201 /* DemoStringVC.swift */; };
+		95A71D1F1FCBC3A000108201 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A71D1E1FCBC3A000108201 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		9549B67A1FC6D1C100B04BE0 /* BSString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSString.swift; sourceTree = "<group>"; };
 		9549B67C1FC6DB6A00B04BE0 /* DemoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoConfig.swift; sourceTree = "<group>"; };
 		9549B67F1FC6DCB600B04BE0 /* DemoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoListCell.swift; sourceTree = "<group>"; };
+		9549B6811FC6DE7C00B04BE0 /* Demo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Demo.storyboard; sourceTree = "<group>"; };
+		95A71D1C1FCBC34C00108201 /* DemoStringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoStringVC.swift; sourceTree = "<group>"; };
+		95A71D1E1FCBC3A000108201 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +66,15 @@
 		9549B6651FC6CF3900B04BE0 /* BetterSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9549B67E1FC6DC9E00B04BE0 /* Demo */,
 				9549B6781FC6D1B200B04BE0 /* Sources */,
 				9549B6661FC6CF3900B04BE0 /* AppDelegate.swift */,
 				9549B6681FC6CF3900B04BE0 /* ViewController.swift */,
-				9549B67E1FC6DC9E00B04BE0 /* Demo */,
 				9549B66A1FC6CF3900B04BE0 /* Main.storyboard */,
 				9549B66D1FC6CF3900B04BE0 /* Assets.xcassets */,
 				9549B66F1FC6CF3900B04BE0 /* LaunchScreen.storyboard */,
 				9549B6721FC6CF3900B04BE0 /* Info.plist */,
+				95A71D1E1FCBC3A000108201 /* Utils.swift */,
 			);
 			path = BetterSwift;
 			sourceTree = "<group>";
@@ -93,6 +100,8 @@
 			children = (
 				9549B67C1FC6DB6A00B04BE0 /* DemoConfig.swift */,
 				9549B67F1FC6DCB600B04BE0 /* DemoListCell.swift */,
+				9549B6811FC6DE7C00B04BE0 /* Demo.storyboard */,
+				95A71D1C1FCBC34C00108201 /* DemoStringVC.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -159,6 +168,7 @@
 				9549B6711FC6CF3900B04BE0 /* LaunchScreen.storyboard in Resources */,
 				9549B66E1FC6CF3900B04BE0 /* Assets.xcassets in Resources */,
 				9549B66C1FC6CF3900B04BE0 /* Main.storyboard in Resources */,
+				9549B6821FC6DE7C00B04BE0 /* Demo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,8 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A71D1D1FCBC34C00108201 /* DemoStringVC.swift in Sources */,
 				9549B6801FC6DCB600B04BE0 /* DemoListCell.swift in Sources */,
 				9549B6691FC6CF3900B04BE0 /* ViewController.swift in Sources */,
+				95A71D1F1FCBC3A000108201 /* Utils.swift in Sources */,
 				9549B6671FC6CF3900B04BE0 /* AppDelegate.swift in Sources */,
 				9549B67D1FC6DB6A00B04BE0 /* DemoConfig.swift in Sources */,
 				9549B67B1FC6D1C100B04BE0 /* BSString.swift in Sources */,

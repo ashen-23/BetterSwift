@@ -13,9 +13,19 @@ class DemoListCell: UITableViewCell {
     @IBOutlet weak var mTitle: UILabel!
     @IBOutlet weak var subTitle: UILabel!
     
+    var demoModel: DemoModel? {
+        didSet {
+            initUI()
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
 
+    func initUI() {
+        mTitle.text = demoModel?.title
+        subTitle.text = demoModel?.subTitle
+    }
 
 }
